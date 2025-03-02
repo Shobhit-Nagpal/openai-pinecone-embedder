@@ -13,6 +13,7 @@ async function main() {
 
     const loader = new DirectoryLoader(dataDir, {
       ".md": (path) => new TextLoader(path),
+      ".txt": (path) => new TextLoader(path),
     });
 
     const docs = await loader.load();
