@@ -1,0 +1,26 @@
+{
+  "name": "upload-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.33",
+    "@langchain/openai": "^0.4.4",
+    "@langchain/pinecone": "^0.2.0",
+    "@pinecone-database/pinecone": "^5.1.0",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.19",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.2"
+  }
+}
